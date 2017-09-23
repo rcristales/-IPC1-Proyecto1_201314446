@@ -65,8 +65,8 @@ public class Administrador extends JFrame {
         
         //datos de usuarios
         user1[0]="Roberto Carlos Garcia Cristales";//posicion 0 es el nombre
-        user1[1]="rcgc";//posicion 1 es el usuario
-        user1[2]="rcgc123";//posicion 2 es la contraseña
+        user1[1]="ipc1";//posicion 1 es el usuario
+        user1[2]="aux1";//posicion 2 es la contraseña
         user1[3]="1000";//posicion 3 es el saldo inicial
         user1[4]="ProPisto";//posicion 4 es la empresa que atiende
         user1[5]="2000"; //posicion 5 es el monto maximo

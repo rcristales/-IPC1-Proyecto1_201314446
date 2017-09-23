@@ -29,8 +29,8 @@ public class Login extends Administrador {
     private String contraseñaadmin;
 
     private void datos(String Us, String pass) {
-        usuarioadmin = "admin";
-        contraseñaadmin = "admin";
+        usuarioadmin = "ipc1Admin";
+        contraseñaadmin = "aux1";
 
     }
 

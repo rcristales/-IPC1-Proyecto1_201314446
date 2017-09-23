@@ -79,12 +79,21 @@ public class Transacciones extends JFrame{
         btnreimpresion.setBounds(new Rectangle(180, 300, 250, 30));
         
         btngraficapie = new JButton ();
-        btngraficapie.setText("Grafica de Pie");
+        btngraficapie.setText("Grafica de Transferencias por Usuarios");
         btngraficapie.setBounds(new Rectangle(180, 360, 250, 30));
+        btngraficapie.setFont(new Font("Letter Gothic Std",Font.BOLD,11));
+        btngraficapie.addActionListener((ActionEvent e) -> {
+            Graficapie grafica2 = new Graficapie();
+            this.setVisible(false);
+        });
         
         btngraficabarra = new JButton ();
-        btngraficabarra.setText("Grafica de Barra");
+        btngraficabarra.setText("Grafica de Transacciones por Mes ");
         btngraficabarra.setBounds(new Rectangle(180, 420, 250, 30));
+        btngraficabarra.addActionListener((ActionEvent e) -> {
+            Grafica grafica1 = new Grafica();
+            this.setVisible(false);
+        });
         
         btnsalir = new JButton ();
         btnsalir.setText("Salir");

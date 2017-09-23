@@ -1,5 +1,6 @@
 package Cajero;
 
+import static Cajero.Administrador.user1;
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.Font;
@@ -63,7 +64,7 @@ public class Saldo extends JFrame {
         lblsaldo.setBounds(new Rectangle(50, 90, 250, 20));
         
         lblmostrarsaldo = new JLabel();
-        lblmostrarsaldo.setText("Q----------");
+        lblmostrarsaldo.setText("Q."+user1[3]);
         lblmostrarsaldo.setBounds(new Rectangle(200, 90, 250, 20));
 
         lblfecha = new JLabel();
